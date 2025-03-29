@@ -1,12 +1,12 @@
 "use client";
 
+// Note: Page metadata is handled by the root layout.tsx using the Metadata API
 import React, { useState, useRef, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Upload, Image as ImageIcon, AlertCircle, Loader2, Camera, X, Info } from "lucide-react";
 import Image from "next/image";
-import Head from "next/head";
 
 export default function ConsolePage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -199,12 +199,6 @@ export default function ConsolePage() {
 
   return (
     <>
-      <Head>
-        <title>Food Analysis Console | Nu.</title>
-        <meta name="description" content="Analyze food nutritional content using AI" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      
       <main className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8" aria-labelledby="page-heading">
         <div className="max-w-5xl mx-auto rounded-3xl bg-white p-4 sm:p-6 md:p-10 shadow-sm">
           <div className="mb-6 sm:mb-8 lg:mb-16">
