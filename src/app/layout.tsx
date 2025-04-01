@@ -88,13 +88,13 @@ export default function RootLayout({
                 <p className="text-sm text-gray-500">© {new Date().getFullYear()} Augen. All rights reserved.</p>
               </div>
               <div className="flex space-x-6">
-                <Link href="/privacy" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Privacy Policy
                 </Link>
-                <Link href="/terms" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Terms of Service
                 </Link>
-                <Link href="/contact" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Contact Us
                 </Link>
               </div>
