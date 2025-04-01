@@ -112,7 +112,7 @@ Nu. represents a significant step forward in food transparency and nutritional a
 
 ---
 
-This project is developed by the Augen Team. For more projects, visit [ihusam.tech](https://projects.ihusam.tech/).
+This project is developed by the Nu | ihusam.tech Team. For more projects, visit [ihusam.tech](https://projects.ihusam.tech/).
 
 ## Learn More
 
