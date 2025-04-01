@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nu. | Know what&apos;s in it.",
-  description: "Discover what&apos;s in your food with AI-powered nutritional analysis",
-  authors: [{ name: "Augen Team" }],
+  title: "Nu. | Know what's in it.",
+  description: "Discover what's in your food with AI-powered nutritional analysis",
+  authors: [{ name: "Nu Team" }],
   keywords: ["food", "nutrition", "bakery", "AI analysis", "calories", "ingredients"],
-  creator: "Augen",
+  creator: "Nu",
 };
 
 export const viewport: Viewport = {
@@ -85,16 +85,16 @@ export default function RootLayout({
           <div className="container mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
-                <p className="text-sm text-gray-500">© {new Date().getFullYear()} Augen. All rights reserved.</p>
+                <p className="text-sm text-gray-500">© {new Date().getFullYear()} Nu | ihusam.tech. All rights reserved.</p>
               </div>
               <div className="flex space-x-6">
-                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://mohammedhusamuddin.notion.site/?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Privacy Policy
                 </Link>
-                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://mohammedhusamuddin.notion.site/?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Terms of Service
                 </Link>
-                <Link href="https://the-arc.notion.site/Terms-Privacy-1c72de48eaa580829f62fa33d3a12053?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
+                <Link href="https://mohammedhusamuddin.notion.site/?pvs=4" className="text-sm text-gray-500 hover:text-gray-700">
                   Contact Us
                 </Link>
               </div>
