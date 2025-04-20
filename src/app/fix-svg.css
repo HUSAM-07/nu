@@ -1,0 +1,13 @@
+/* Simple CSS fixes for SVG elements */
+button svg, a svg, div svg, span svg {
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+button svg:not([class*='size-']), 
+a svg:not([class*='size-']), 
+div svg:not([class*='size-']), 
+span svg:not([class*='size-']) {
+  width: 1rem;
+  height: 1rem;
+} 
